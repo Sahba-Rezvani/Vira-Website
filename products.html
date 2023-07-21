@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محصولات | ویرا</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/old logo/8/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/old logo/8/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/old logo/8/favicon-16x16.png">
+    <link rel="manifest" href="/img/old logo/8/site.webmanifest">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body class="product-body">
+    <header class="product-header">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="menu">
+        <li class="menu_item">
+          <a href="./index.html#solutions" class="menu_item-link">
+            <span>راهکارها</span>
+          </a>
+        </li>
+        <li class="menu_item">
+          <a href="#" class="products menu_item-link">
+            <span>محصولات</span>
+          </a>
+        </li>
+
+        <li class="menu_item">
+          <a href="./about.html" class="menu_item-link">درباره ما</a>
+        </li>
+        <li class="menu_item">
+          <a href="./index.html#contactUs" class="menu_item-link">تماس با ما</a>
+        </li>
+      </ul>
+      <a href="./index.html" class="logo_box">
+        <p class="logoType">.ira</p>
+        <img class="logo" src="./img/Layer 5.png" alt="logo">
+      </a>
+
+    </header>
+    <main>
+      <div class="products--page">
+        <div class="section_title">
+          <div class="title_line"></div>
+          <h2 class="about_title">محصولات</h2>
+          <div class="title_line"></div>
+        </div>
+        <section class="products-container">
+          <article onclick="product1()" class="product-card">
+            <div class="product-img-box">
+              <img src="./img/products/shid.png" alt="" class="product-img" />
+            </div>
+            <div class="product-info-box">
+              <h4 class="product-name">رهاورد پایه</h4>
+              <p class="product-def">ردیابی و کنترل از راه دور خودرو</p>
+            </div>
+          </article>
+          <article onclick="product2()" class="product-card">
+            <div class="product-img-box">
+              <img src="" alt="Rahavard pro" class="product-img" />
+            </div>
+            <div class="product-info-box">
+              <h4 class="product-name">رهاورد Pro</h4>
+              <p class="product-def">ردیابی و کنترل از راه دور خودرو</p>
+            </div>
+          </article>
+          <article onclick="product3()" class="product-card">
+            <div class="product-img-box">
+              <img src="./img/products/greenhouse-1.png" alt="" class="product-img" />
+            </div>
+            <div class="product-info-box">
+              <h4 class="product-name">Green House</h4>
+              <p class="product-def">مدیریت از راه دور گلخانه‌ها و گیاهان</p>
+            </div>
+          </article>
+          <article onclick="product4()" class="product-card">
+            <div class="product-img-box">
+              <img src="" alt="" class="GPS Board" />
+            </div>
+            <div class="product-info-box">
+              <h4 class="product-name">برد GPS</h4>
+              <p class="product-def">به زودی...</p>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <article class="modal hidden">
+        <button class="close-modal btn">&times;</button>
+        <div class="product-detail-box">
+          <div class="p-det-info">
+            <h5 class="p-name"></h5>
+            <div class="underline"></div>
+            <p class="p-description">
+              
+            </p>
+            <div class="p-options">
+              <div class="p-option-gp1">
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option1-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option1-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option2-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option2-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option3-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option3-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option4-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option4-text"></p>
+                  </div>
+                </article>
+              </div>
+              <div class="p-option-gp2">
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option5-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option5-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option6-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option6-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option7-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option7-text"></p>
+                  </div>
+                </article>
+                <article class="p-option">
+                  <div>
+                    <h6 class="p-option-title p-option8-title">
+                      <i class="bi bi-check-lg p-option-icon"></i>
+                    </h6>
+                    <p class="p-option-text p-option8-text"></p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="p-det-img-box">
+            <img
+              src=""
+              alt="product"
+              class="p-det-img"
+            />
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="flex_center">
+      <div class="company_name">vira-systems.ir</div>
+      <div class="menu_box">
+        <ul class="footer_menu">
+          <li class="menu_item">
+            <a href="./index.html#solutions" class="menu_item-link footer_link">
+              راهکار ها
+            </a>
+          </li>
+          <li class="menu_item">
+            <a href="#" class="menu_item-link footer_link">محصولات</a>
+          </li>
+
+          <li class="menu_item">
+            <a href="./about.html" class="menu_item-link footer_link"
+              >درباره ما</a
+            >
+          </li>
+          <li class="menu_item">
+            <a href="./index.html#contactUs" class="menu_item-link footer_link"
+              >تماس با ما</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer_social_icons">
+        <a
+          href="https://api.whatsapp.com/send/?phone=989330116543&text"
+          class="whatsapp footer_social_icon"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/81306387/admin/"
+          class="linkedin footer_social_icon"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://t.me/viraElectro?text=Vira"
+          class="telegram footer_social_icon"
+        >
+          <i class="bi bi-telegram"></i>
+        </a>
+      </div>
+      <!-- <div class="footer-small-sec"> -->
+      <div class="footer-small-item">
+        <i class="bi bi-geo-alt-fill footer-small-icon footer_loc-icon"></i>
+        <p class="footer-small-text">
+          قزوین- خیابان دانشگاه- بلوار نخبگان- ضلع شمالی دانشگاه آزاد اسلامی
+          قزوین- مرکز رشد واحدهای فن آور
+        </p>
+      </div>
+      <div class="footer-small-item">
+        <i class="bi bi-telephone-fill footer-small-icon"></i>
+        <p class="footer-small-text" dir="ltr">+98 919 564 0838</p>
+      </div>
+      <div class="footer-small-item">
+        <i class="bi bi-envelope-fill footer-small-icon"></i>
+        <p class="footer-small-text">virateam@viraelectro.ir</p>
+      </div>
+      <div class="separate_line"></div>
+      <p class="rights">Vira 2021 &copy;, All Rights Reserved</p>
+      <p class="sahbarezvani">Designed by Sahba Rezvani</p>
+    </footer>
+    <div class="overlay hidden"></div>
+    <script src="./script.js"></script>
+    <script src="./product.js"></script>
+  </body>
+</html>
